@@ -1,0 +1,45 @@
+.blogtag{
+    margin: 0px;
+}
+.laggagetag{
+    width: 16vw;
+}
+.page-blog{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+}
+.articles{
+
+    text-align: left;
+    }
+.aaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    position: absolute;
+    font-size: 3em;
+    top:50%;
+    color: var(--FontColor);
+    
+}
+.ArticleText{
+
+    position: absolute;
+    top:200%
+}
+.ccc{
+    padding: 50px;
+    flex-direction: column;
+    width: 16%;
+    position: absolute;
+
+}
+h3 .ArticleText{
+    position: absolute;
+    
+}
