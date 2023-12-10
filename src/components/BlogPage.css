@@ -1,0 +1,11 @@
+.BlogPageTitle{
+    width: 50%;
+    height: 3vw;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+h2{
+    margin: 0 auto;
+}

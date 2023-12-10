@@ -1,0 +1,63 @@
+:root{
+    --svgcolor1:rgba(103, 222, 214, 1);
+    --svgcolor2:rgba(222, 255, 249, 1);
+}
+
+.ContentsBg{
+    position: relative;
+    width: 100%;
+    height: 220vh;
+    background:var(--svgcolor2);
+    overflow: hidden;
+}
+
+.ContentsBgTop{
+    z-index: 750;
+    opacity: 100%;
+}
+
+.ContentsBgBottom{
+    z-index: 0;
+    opacity: 100%;
+    bottom:0;
+    margin: 0;
+    padding: 0;
+}
+.ContentBgMiddle{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    top:35%;
+}
+h4{
+    text-align: center;
+    color: var(--svgcolor1);
+    font-size: 3.5vw;
+}
+.TextInContent{
+margin: 0 auto;
+}
+.bg{
+    margin: 0;
+    padding: 0;
+    top:-5%;
+    position: absolute;
+    left: 8%;
+}
+.bg1{
+    margin: 0;
+    padding: 0;
+    top:50%;
+    position: absolute;
+    right: 0%;
+}
+.bg2{
+    margin: 0;
+    padding: 0;
+    top:100%;
+    position: absolute;
+    left: 8%;
+}

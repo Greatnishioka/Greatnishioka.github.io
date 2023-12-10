@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+
 }
 li{
     list-style: none;
@@ -32,11 +33,8 @@ ul{
 /*以下トップページ*/
 .page-top{
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
     position: relative;/*画像ずらせないので後回し*/
-    top:70px;
-    text-align: right;
+    left: 0px;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
@@ -45,12 +43,14 @@ ul{
     width: 35%;
     z-index: 1000;
     position: absolute;
-    top: 37.5%;
-    left: 2.5%;
+    top: 35%;
+    left: 7.5%;
 }
 .top-illust{
-    width: 80%;
+    width: 96.5%;
+    height: 100%;
     z-index: 500;
+    left: 0px;
 }
 /*以下ブログページ*/
 h1{
@@ -61,4 +61,18 @@ h1{
     color: rgba(0, 0, 0, 0);
     font-size: 25vw;
     z-index: -500;
+}
+.page-blog{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.WhiteBox{
+    position: absolute;
+    top:0;
+    left: 5%;
+    width: 15%;
+    height: 50%;
+    background-color: #ffffff;
+    z-index: 750;
 }

@@ -1,15 +1,15 @@
 import React from 'react';
 import Toppage from '../components/toppage';
-import Menu from '../components/menu';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Contents from '../components/Contents';
+import Contact from '../components/Contact';
+import './Top.css';
 
 function toppage(){
     return(
         <div>
-            <Router>
-                <Menu />
                 <Toppage />
-            </Router>
+                <Contents />
+                <Contact />
         </div>
     );
 }

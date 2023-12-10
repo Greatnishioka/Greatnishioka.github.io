@@ -11,9 +11,8 @@ ul{
     /*以下メニュー*/
 .top-page-link{
     text-decoration: none;
-    color: #000;
-    font-size: 25px;
-    font-weight: bold;
+    color: var(--FontColor);
+    font-size:2.5vw;
     font-weight: bold;
 }
 .navigate{

@@ -10,6 +10,7 @@ return(
             <div class="page-top">
                 <img src ="Logo.png" alt ="logo" class="logo"></img>
                 <img src ="mock_illust.jpg" alt="top-illust" class="top-illust"></img>
+                <div class="WhiteBox"></div>
             </div>
         </section>
         <section id="Blog">

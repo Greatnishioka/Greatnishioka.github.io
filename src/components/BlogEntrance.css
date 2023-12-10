@@ -1,0 +1,11 @@
+.BlogTitle{
+    width: 30%;
+    height: 20%;
+    border-bottom: 2px solid var(--FontColor);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.title{
+    font-size: 10vw;
+    text-align: center;
+}

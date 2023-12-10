@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.Footer{
+  z-index: -2500;
+}

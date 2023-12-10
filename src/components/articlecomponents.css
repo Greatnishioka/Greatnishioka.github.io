@@ -1,45 +1,41 @@
-.blogtag{
-    margin: 0px;
-}
 .laggagetag{
     width: 16vw;
 }
-.page-blog{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    position: relative;
-}
 .articles{
-
     text-align: left;
-    }
+    margin: 40px;
+}
 .aaa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    position: relative;
 }
 h3{
     position: absolute;
-    font-size: 3em;
-    top:50%;
+    font-size: 1.75vw;
     color: var(--FontColor);
     
 }
 .ArticleText{
-
     position: absolute;
-    top:200%
+    font-size: 1vw;
+    top: 0%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #000;
 }
 .ccc{
-    padding: 50px;
-    flex-direction: column;
-    width: 16%;
-    position: absolute;
-
+position: absolute;
+width: 88%;
+height: 58%;
+top: 50%;
+left: 5%;
 }
-h3 .ArticleText{
+.Texts{
+    text-align: left;
+    width: 90%;
+    height: 30%;
     position: absolute;
-    
+    top:65%;
+    left:5%;
+    flex-direction: column;
 }
